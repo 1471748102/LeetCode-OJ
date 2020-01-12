@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="C:/se_jee-exp1-master/exp1" value="PREVIEW" />
+        <entry key="E:/exp1/exp1" value="PREVIEW" />
+        <entry key="E:/se_jee-exp1-master/exp1" value="PREVIEW" />
+        <entry key="E:/se_jee-exp1-master/jee2019_exp2" value="PREVIEW" />
+        <entry key="F:/ManageUcar" value="PREVIEW" />
+        <entry key="F:/SalseCar/ManageCar" value="PREVIEW" />
+        <entry key="F:/Shop/ElaShop" value="PREVIEW" />
+        <entry key="F:/Shop/jee-exp" value="PREVIEW" />
+        <entry key="F:/TabEsc-exp1-master/exp1" value="PREVIEW" />
+        <entry key="F:/TabEsc-exp1-master/jee2019_exp3" value="PREVIEW" />
+        <entry key="F:/TabEsc-jee2019_exp2-master/jee2019_exp2" value="PREVIEW" />
+        <entry key="F:/jee2019_test" value="PREVIEW" />
+        <entry key="F:/jee2019_try" value="PREVIEW" />
+        <entry key="F:/picture_hosting" value="PREVIEW" />
+        <entry key="F:/se_jee-exp1-master/jee2019_exp2" value="PREVIEW" />
+        <entry key="F:/se_jee-exp1-master/jee2019_exp3" value="PREVIEW" />
+        <entry key="F:/se_jee-exp1-master/jee2019_exp4" value="PREVIEW" />
+        <entry key="F:/se_jee-exp1-master/jee2019_exp5" value="PREVIEW" />
+        <entry key="F:/se_jee-exp1-master/jee2019_exp6" value="PREVIEW" />
+        <entry key="F:/se_jee-jee2019-master (1)/jee2019" value="PREVIEW" />
+        <entry key="F:/se_jee-jee2019_exp2-master/jee2019_exp2" value="PREVIEW" />
+        <entry key="F:/test" value="PREVIEW" />
+        <entry key="G:/exp1" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="297" />
+    <option name="y" value="109" />
+    <option name="width" value="1769" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/LeetCode" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
