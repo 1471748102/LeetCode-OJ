@@ -1,5 +1,5 @@
 # LeetCode-OJ
-记录一下刷过的LeetCode和OJ上的题目
+
 
 ### 热题 HOT 100!
 
