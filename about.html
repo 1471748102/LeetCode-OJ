@@ -58,19 +58,40 @@ a {
             <div class="col-md-6" style="padding:5px 0">
                 <center><h5>关于我 | About Me</h5></center>
                 <ul class="list-group list">
-                    <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i> 学历： 本科软件工程专业.</li>
-                    <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i> 现况： 在学习Java框架相关的技术知识,还需要继续努力.</li>
-                    <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i> 性格： 有责任心，良好的沟通能力和团队合作精神.</li>
-                    <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i> 目标： 前后端都熟练掌握的技术大佬.</li>
-                    <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i> Blog： 记录学习过程的点滴.</li>
-                    <li class="list-group-item"><i class="fa fa-circle" aria-hidden="true"></i> 其他： 凌晨四点钟，看海棠花未眠.</li>
+                    <li class="list-group-item"><i class="fa fa-pencil-square" aria-hidden="true"></i> 学历： 本科软件工程专业.</li>
+                    <li class="list-group-item"><i class="fa fa-clock-o" aria-hidden="true"></i> 现况： 在学习Java框架相关的技术知识,还需要继续努力.</li>
+                    <li class="list-group-item"><i class="fa fa-superpowers" aria-hidden="true"></i> 性格： 有责任心，良好的沟通能力和团队合作精神.</li>
+                    <li class="list-group-item"><i class="fa fa-bullseye" aria-hidden="true"></i> 目标： 全栈技术大佬.</li>
+                    <li class="list-group-item"><i class="fa fa-th-large" aria-hidden="true"></i> Blog： 记录学习过程的点滴.</li>
+                    <li class="list-group-item"><i class="fa fa-file-word-o" aria-hidden="true"></i>
+                        一言API：
+                        <center>
+                        
+                            <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+                            <div id="poem_sentence"></div>
+                            <div id="poem_info"></div>
+                            <script type="text/javascript">
+                          jinrishici.load(function(result) {
+                            var sentence = document.querySelector("#poem_sentence")
+                            var info = document.querySelector("#poem_info")
+                            sentence.innerHTML = result.data.content
+                            info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+                        });
+</script>
+             </center>           
+                    </li>
                 </ul>
             </div>
             <div class="col-md-6 skills" style="padding:5px 20px">
                 <center><h5>我的技能 | My Skills</h5></center>
                 <div class="progress">
                     <div class="progress-bar bg-success" role="progressbar" style="width:65%" aria-valuenow="65"
-                         aria-valuemin="0" aria-valuemax="100">HTML/css/JavaScript &emsp; 65%
+                         aria-valuemin="0" aria-valuemax="100">HTML/CSS/JavaScript/JSP &emsp; 65%
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar bg-dark" role="progressbar" style="width:40%" aria-valuenow="40"
+                         aria-valuemin="0" aria-valuemax="100">Vue 40%
                     </div>
                 </div>
                 <div class="progress">
@@ -83,14 +104,10 @@ a {
                          aria-valuemin="0" aria-valuemax="100">C/Java/Python &emsp; 75%
                     </div>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar bg-dark" role="progressbar" style="width:40%" aria-valuenow="40"
-                         aria-valuemin="0" aria-valuemax="100">Vue 40%
-                    </div>
-                </div>
+                
                 <div class="progress">
                     <div class="progress-bar bg-primary" role="progressbar" style="width:65%" aria-valuenow="65"
-                         aria-valuemin="0" aria-valuemax="100">MVC模式/SSM/Spring boot &emsp; 65%
+                         aria-valuemin="0" aria-valuemax="100">SSM/Spring Boot &emsp; 65%
                     </div>
                 </div>
                 <div class="progress">
@@ -99,10 +116,16 @@ a {
                     </div>
                 </div>
                 <div class="progress">
+                    <div class="progress-bar bg-dark" role="progressbar" style="width:70%" aria-valuenow="70"
+                         aria-valuemin="0" aria-valuemax="100">TCP/IP协议栈 &nbsp;70%
+                    </div>
+                </div>
+                <div class="progress">
                     <div class="progress-bar bg-warning" role="progressbar" style="width:60%" aria-valuenow="60"
                          aria-valuemin="0" aria-valuemax="100">SQL &emsp; 60%
                     </div>
                 </div>
+                
             </div>
         </div>
 
