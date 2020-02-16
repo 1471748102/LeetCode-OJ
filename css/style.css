@@ -1,0 +1,73 @@
+body {
+  background-image: url("https://cdn.jsdelivr.net/gh/1471748102/cdn@1.7.5/img/19.jpg");
+  background-size: 100% auto;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.introdu {
+  background-color: whitesmoke;
+  opacity: 0.6;
+  margin-top: 4px;
+}
+
+.introdu .col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introdu .col-md-4 .rotation {
+  -webkit-transform: rotate(360deg);
+  animation: rotation 3s linear infinite;
+  -moz-animation: rotation 3s linear infinite;
+  -webkit-animation: rotation 3s linear infinite;
+  -o-animation: rotation 3s linear infinite;
+}
+
+.table td {
+  /* font-size: 16px; */
+  font-weight: bolder;
+}
+
+.about-me {
+  background-color: whitesmoke;
+  opacity: 0.6;
+  margin-top: 2px;
+}
+
+.about-me .list li {
+  /* font-size: 16px;     */
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.about-me .skills {
+  font-weight: bolder;
+}
+
+.skills .progress {
+  margin: 13px 0;
+  height: 30px;
+}
+
+.contact,
+.contact-title {
+  background-color: whitesmoke;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.contact .col-md-2 img {
+  width: 42px;
+  height: 42px;
+}
+
